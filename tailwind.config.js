@@ -16,9 +16,9 @@ export default {
         'primary': '#3498db',
         'secondary': '#f7fbfe',
         'gray': '#384046',
-        'gray-light': '#4f5a62',
+        'gray-light': '#f1f1f1',
         'grey': '#131723',
-        'grey-light': '#f1f1f1'
+        'grey-light': '#222739'
       }
     },
   },

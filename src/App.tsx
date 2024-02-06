@@ -1,6 +1,7 @@
 import Header from './layout/Header'
 import About from './pages/About'
 import Hero from './pages/Hero'
+import Projects from './pages/Projects'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <main className='bg-secondary dark:bg-grey'>
         <Hero />
         <About />
+        <Projects />
       </main>
     </>
   )
