@@ -7,17 +7,18 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
-      fontFamily:{
-        'rale':['Raleway', 'sans-serif'],
-        'popp':['Poppins', 'sans-serif']
+      fontFamily: {
+        'mont': ['Montserrat', 'sans-serif'],
+        'rale': ['Raleway', 'sans-serif'],
+        'popp': ['Poppins', 'sans-serif']
       },
       colors: {
         'primary': '#3498db',
-        'secondary':'#f7fbfe',
+        'secondary': '#f7fbfe',
         'gray': '#384046',
-        'gray-light':'#4f5a62',
-        'grey':'#131723',
-        'grey-light':'#f1f1f1'
+        'gray-light': '#4f5a62',
+        'grey': '#131723',
+        'grey-light': '#f1f1f1'
       }
     },
   },
