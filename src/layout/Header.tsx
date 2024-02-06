@@ -10,7 +10,7 @@ const Header: React.FC = () => {
     return (
         <>
             <header
-                className={`fixed z-40 top-0 left-0 h-[70px] w-full flex items-center bg-[rgba(255,255,255,.7)] dark:bg-[rgba(255,255,255,0)] backdrop-blur-[30px] shadow-[0_3px_6px_3px_rgba(0,0,0,0.4)] transition-all duration-300`}>
+                className={`fixed z-40 top-0 left-0 h-[70px] w-full flex items-center bg-[rgba(255,255,255,.8)] dark:bg-[rgba(255,255,255,0)] backdrop-blur-[30px] shadow-[0_3px_6px_3px_rgba(0,0,0,0.4)] transition-all duration-300`}>
                 <div className='container mx-auto flex items-center justify-between px-2'>
                     <ScrollLink
                         to='hero'
@@ -31,7 +31,7 @@ const Header: React.FC = () => {
                                             to={item.href}
                                             smooth={true}
                                             duration={300}
-                                            className='text-grey dark:text-grey-light font-semibold font-popp py-2 pl-8 cursor-pointer'>
+                                            className='text-grey dark:text-gray-light font-semibold font-popp py-2 pl-8 cursor-pointer'>
                                             {item.title}
                                         </ScrollLink>
                                     </li>
@@ -40,9 +40,9 @@ const Header: React.FC = () => {
                         </ul>
                         <ThemeToggler />
                         <div className="w-[40px] h-[40px] flex flex-col justify-center items-center cursor-pointer md:hidden transition-all duration-300" onClick={() => setHamburger(prev => !prev)}>
-                            <div className={`bg-gray-light dark:bg-grey-light w-[18px] h-[2px] transition-all duration-500 ${hamburger ? '-rotate-45 translate-y-[8px] delay-200' : 'rotate-0 translate-y-0'}`}></div>
-                            <div className={`bg-gray-light dark:bg-grey-light h-[2px] flex justify-center items-center my-[6px] transition-all duration-300 ${hamburger ? 'w-0' : 'w-[18px] delay-300'}`}></div>
-                            <div className={`bg-gray-light dark:bg-grey-light w-[18px] h-[2px] transition-all duration-500 ${hamburger ? 'rotate-45 -translate-y-[8px] delay-200' : 'rotate-0 translate-y-0'}`}></div>
+                            <div className={`bg-gray dark:bg-gray-light w-[18px] h-[2px] transition-all duration-500 ${hamburger ? '-rotate-45 translate-y-[8px] delay-200' : 'rotate-0 translate-y-0'}`}></div>
+                            <div className={`bg-gray dark:bg-gray-light h-[2px] flex justify-center items-center my-[6px] transition-all duration-300 ${hamburger ? 'w-0' : 'w-[18px] delay-300'}`}></div>
+                            <div className={`bg-gray dark:bg-gray-light w-[18px] h-[2px] transition-all duration-500 ${hamburger ? 'rotate-45 -translate-y-[8px] delay-200' : 'rotate-0 translate-y-0'}`}></div>
                         </div>
                     </div>
                 </div>
