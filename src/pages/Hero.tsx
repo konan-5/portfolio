@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
                     </div>
                     <div className=''>
                         <h1 className='text-white text-4xl md:text-5xl lg:text-7xl font-bold font-mont text-center md:text-left'>Hiroshi Ikeda</h1>
-                        <h2 className='mt-5 text-2xl md:text-3xl text-primary dark:text-grey text-center font-semibold font-popp'>
+                        <h2 className='mt-5 text-2xl md:text-3xl text-primary dark:text-secondary text-center font-semibold font-popp'>
                             <TypeWriter
                                 options={{
                                     strings: [
