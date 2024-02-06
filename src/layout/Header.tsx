@@ -16,7 +16,7 @@ const Header: React.FC = () => {
                         to='hero'
                         smooth={true}
                         duration={300}
-                        className='text-black dark:text-white'>
+                        className='text-black dark:text-white cursor-pointer'>
                         <div className=''>
 
                         </div>
