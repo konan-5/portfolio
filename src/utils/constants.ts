@@ -1,18 +1,18 @@
 export const navLinks = [
     {
         title: 'About',
-        href: '#about'
+        href: 'about'
     },
     {
         title: 'Projects',
-        href: '#projects'
+        href: 'projects'
     },
     {
         title: 'Skills',
-        href: '#skills'
+        href: 'skills'
     },
     {
         title: 'Experience',
-        href: '#experience'
+        href: 'experience'
     },
 ]
