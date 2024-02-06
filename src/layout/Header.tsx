@@ -12,7 +12,10 @@ const Header: React.FC = () => {
             <header
                 className={`fixed z-40 top-0 left-0 h-[70px] w-full flex items-center bg-[rgba(255,255,255,.7)] dark:bg-[rgba(255,255,255,0)] backdrop-blur-[30px] shadow-[0_3px_6px_3px_rgba(0,0,0,0.4)] transition-all duration-300`}>
                 <div className='container mx-auto flex items-center justify-between px-2'>
-                    <ScrollLink to='hero'
+                    <ScrollLink
+                        to='hero'
+                        smooth={true}
+                        duration={300}
                         className='text-black dark:text-white'>
                         <div className=''>
 
@@ -26,7 +29,9 @@ const Header: React.FC = () => {
                                     <li className='' key={`pc-nav${key}`}>
                                         <ScrollLink
                                             to={item.href}
-                                            className='text-grey dark:text-grey-light font-semibold font-popp py-2 pl-8'>
+                                            smooth={true}
+                                            duration={300}
+                                            className='text-grey dark:text-grey-light font-semibold font-popp py-2 pl-8 cursor-pointer'>
                                             {item.title}
                                         </ScrollLink>
                                     </li>
@@ -47,7 +52,11 @@ const Header: React.FC = () => {
                     {
                         navLinks.map((item, key) => (
                             <li className='text-center w-full ' key={`mobile-nav${key}`}>
-                                <a href={item.href} onClick={() => setHamburger(false)} className='rounded-md py-2 block font-medium text-white border-[1px] border-transparent hover:border-white transition-all duration-200'>{item.title}</a>
+                                <ScrollLink
+                                    to={item.href}
+                                    smooth={true}
+                                    duration={300}
+                                    onClick={() => setHamburger(false)} className='rounded-md py-2 block font-medium text-white border-[1px] border-transparent hover:border-white transition-all duration-200 cursor-pointer'>{item.title}</ScrollLink>
                             </li>
                         ))
                     }

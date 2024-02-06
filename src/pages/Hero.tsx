@@ -6,7 +6,7 @@ import { Element } from 'react-scroll';
 
 const Hero: React.FC = () => {
     return (
-        <Element name={'hero'} id='hero' className='bg-white relative h-[calc(100vh-70px)]'>
+        <Element name={'hero'} id='hero' className='pt-[70px] bg-white relative h-screen'>
             <div className='absolute z-20 h-full w-full'>
                 <div className='h-full container gap-10 md:gap-20 lg:gap-32 mx-auto flex flex-col md:flex-row justify-center items-center'>
                     <div className='shadow-[0_3px_6px_3px_rgba(0,0,0,0.4)] rounded-full w-[200px] md:w-[250px] lg:w-[300px]'>

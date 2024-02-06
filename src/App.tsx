@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className='pt-[70px] bg-secondary dark:bg-grey'>
+      <main className='bg-secondary dark:bg-grey'>
         <Hero />
         <About />
       </main>
