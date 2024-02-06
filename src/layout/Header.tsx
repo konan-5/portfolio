@@ -9,7 +9,7 @@ const Header: React.FC = () => {
     return (
         <>
             <header
-                className={`fixed z-40 top-0 left-0 h-[70px] w-full flex items-center bg-[rgba(255,255,255,0)] backdrop-blur-[30px] shadow-[0_3px_6px_3px_rgba(0,0,0,0.4)] transition-all duration-300`}>
+                className={`fixed z-40 top-0 left-0 h-[70px] w-full flex items-center bg-[rgba(255,255,255,.7)] dark:bg-[rgba(255,255,255,0)] backdrop-blur-[30px] shadow-[0_3px_6px_3px_rgba(0,0,0,0.4)] transition-all duration-300`}>
                 <div className='container mx-auto flex items-center justify-between px-2'>
                     <a href='#' className='text-black dark:text-white'>
                         <div className=''>
@@ -22,7 +22,7 @@ const Header: React.FC = () => {
                             {
                                 navLinks.map((item, key) => (
                                     <li className='' key={`pc-nav${key}`}>
-                                        <a href={item.href} className='text-gray-light dark:text-grey-light font-semibold font-popp py-2 pl-8'>{item.title}</a>
+                                        <a href={item.href} className='text-grey dark:text-grey-light font-semibold font-popp py-2 pl-8'>{item.title}</a>
                                     </li>
                                 ))
                             }
