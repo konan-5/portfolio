@@ -16,7 +16,7 @@ const EffectBackground: React.FC = () => {
 
     return (
         <>
-            <div className='absolute z-10 w-full h-full left-0 top-0 bg-[rgba(0,0,0,.4)]'></div>
+            <div className='absolute z-10 w-full h-full left-0 top-0 bg-[rgba(0,0,0,.4)] dark:bg-[rgba(90,90,90,.4)]'></div>
             <Swiper
                 effect={'fade'}
                 speed={3000}
