@@ -1,3 +1,5 @@
+import { ToastContainer } from 'react-toastify'
+
 import Header from './layout/Header'
 import About from './pages/About'
 import Contact from './pages/Contact'
@@ -6,10 +8,13 @@ import Hero from './pages/Hero'
 import Projects from './pages/Projects'
 import Skills from './pages/Skills'
 
+import 'react-toastify/dist/ReactToastify.css';
+
 function App() {
 
   return (
     <>
+      <ToastContainer />
       <Header />
       <main className='bg-secondary dark:bg-grey'>
         <Hero />
@@ -17,7 +22,7 @@ function App() {
         <Projects />
         <Skills />
         <Experience />
-        <Contact/>
+        <Contact />
       </main>
     </>
   )

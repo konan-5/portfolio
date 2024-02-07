@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Element } from "react-scroll";
 import axios from "axios";
+import { toast } from "react-toastify";
 
 const Contact: React.FC = () => {
     const [name, setName] = useState<string>('')
@@ -12,13 +13,14 @@ const Contact: React.FC = () => {
     const handleSend = () => {
 
         if (!email) {
-            alert('input email address')
+            toast.error('Please enter an email address.', { autoClose: 3000 })
             return
         }
 
         if (email) {
             let emailValidSttus = emailRegex.test(email);
             if (!emailValidSttus) {
+                toast.error('Please enter a correct email address.', { autoClose: 3000 })
                 return;
             }
             setLoading(true);
@@ -31,9 +33,15 @@ const Contact: React.FC = () => {
                 }
             ).then(() => {
                 setLoading(false)
-
+                toast.success('Message received. Thank you!', { autoClose: 3000 });
             }).catch(() => {
                 setLoading(false)
+                toast.error('Message not sent. Please try again.', { autoClose: 3000 })
+            }).then(() => {
+                setName('')
+                setEmail('')
+                setSubject('')
+                setMessage('')
             })
         }
     }
@@ -49,6 +57,7 @@ const Contact: React.FC = () => {
                             id="Name"
                             placeholder="Your Name"
                             onChange={(e) => setName(e.target.value)}
+                            value={name}
                         />
                         <label
                             htmlFor="name"
@@ -63,6 +72,7 @@ const Contact: React.FC = () => {
                             id="email"
                             placeholder="Your Email"
                             onChange={(e) => setEmail(e.target.value)}
+                            value={email}
                         />
                         <label
                             htmlFor="email"
@@ -77,6 +87,7 @@ const Contact: React.FC = () => {
                             id="subject"
                             placeholder="Subject"
                             onChange={(e) => setSubject(e.target.value)}
+                            value={subject}
                         />
                         <label
                             htmlFor="subject"
@@ -91,6 +102,7 @@ const Contact: React.FC = () => {
                             rows={5}
                             placeholder="Message"
                             onChange={(e) => setMessage(e.target.value)}
+                            value={message}
                         />
                         <label
                             htmlFor="message"
