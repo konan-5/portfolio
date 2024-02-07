@@ -47,7 +47,7 @@ const Header: React.FC = () => {
                     </div>
                 </div>
             </header>
-            <div className={`md:hidden absolute z-30 w-full rounded-b-md bg-gray dark:bg-black shadow-[0_20px_40px_20px_rgb(0,0,0,.3)] transition-all duration-500 ${hamburger ? 'translate-y-[70px]' : '-translate-y-[300px]'}`}>
+            <div className={`md:hidden fixed z-30 w-full rounded-b-md bg-gray dark:bg-black shadow-[0_20px_40px_20px_rgb(0,0,0,.3)] transition-all duration-500 ${hamburger ? 'translate-y-[70px]' : '-translate-y-[300px]'}`}>
                 <ul className={`w-auto h-auto py-4 px-2  my-auto mx-0 outline-4 `}>
                     {
                         navLinks.map((item, key) => (
