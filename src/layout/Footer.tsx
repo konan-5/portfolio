@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
                         {
                             socials.map((item, key) => (
                                 <li className="sm:ml-2 w-[30px] h-[30px] sm:w-[40px] sm:h-[40px]" key={`social${key}`}>
-                                    <a href={item.href} className="w-full"><img src={item.icon} alt={item.title} title={item.title} /></a>
+                                    <a href={item.href} className="w-full" target="_blank"><img src={item.icon} alt={item.title} title={item.title}/></a>
                                 </li>
                             ))
                         }
