@@ -39,6 +39,13 @@ import mongodbIcon from '../assets/skills/mongodb.png'
 import mysqlIcon from '../assets/skills/mysql.png'
 import postgresqlIcon from '../assets/skills/postgresql.png'
 
+import linkedinIcon from '../assets/socials/linkedin.png'
+import githubIcon from '../assets/socials/github.png'
+import figmaIcon from '../assets/socials/figma.png'
+import discordIcon from '../assets/socials/discord.png'
+import telegramIcon from '../assets/socials/telegram.png'
+import slackIcon from '../assets/socials/slack.png'
+import skypeIcon from '../assets/socials/skype.png'
 
 export const navLinks = [
     {
@@ -206,10 +213,43 @@ export const experiences = [
     }
 ]
 
-
-
-
-
+export const socials = [
+    {
+        icon: linkedinIcon,
+        href: 'https://www.linkedin.com/in/ikeda-hiroshi',
+        title: 'Hiroshi Ikeda | Linkedin'
+    },
+    {
+        icon: githubIcon,
+        href: 'https://github.com/konan-5',
+        title: 'Hiroshi Ikeda | Github'
+    },
+    {
+        icon: figmaIcon,
+        href: 'https://www.figma.com/@ikedahiroshi',
+        title: 'Hiroshi Ikeda | Linkedin'
+    },
+    {
+        icon: discordIcon,
+        href: 'https://discord.gg/KuwYFdPt',
+        title: 'Hiroshi Ikeda | Discord'
+    },
+    {
+        icon: telegramIcon,
+        href: 'https://t.me/konan0x5',
+        title: 'Hiroshi Ikeda | Telegram'
+    },
+    {
+        icon: slackIcon,
+        href: 'https://join.slack.com/t/developmentworld/shared_invite/zt-2c8kt1a1v-Q7uX_8QK4ej57WYan8x8Yg',
+        title: 'Hiroshi Ikeda | Slack'
+    },
+    {
+        icon: skypeIcon,
+        href: 'https://join.skype.com/invite/vaSfWUug57Rk',
+        title: 'Hiroshi Ikeda | Skype'
+    },
+]
 
 
 
