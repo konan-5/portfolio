@@ -4,7 +4,6 @@ import backgroundImage2 from '../assets/wallpapers/wallpaper2.jpg'
 import backgroundImage3 from '../assets/wallpapers/wallpaper3.jpg'
 import backgroundImage4 from '../assets/wallpapers/wallpaper4.jpg'
 import backgroundImage5 from '../assets/wallpapers/wallpaper5.jpg'
-import backgroundImage6 from '../assets/wallpapers/wallpaper6.jpg'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectFade } from 'swiper/modules';
@@ -31,7 +30,6 @@ const EffectBackground: React.FC = () => {
                 <SwiperSlide className='bg-cover bg-center w-full h-full' style={{ backgroundImage: `url(${backgroundImage3})` }}></SwiperSlide>
                 <SwiperSlide className='bg-cover bg-center w-full h-full' style={{ backgroundImage: `url(${backgroundImage4})` }}></SwiperSlide>
                 <SwiperSlide className='bg-cover bg-center w-full h-full' style={{ backgroundImage: `url(${backgroundImage5})` }}></SwiperSlide>
-                <SwiperSlide className='bg-cover bg-center w-full h-full' style={{ backgroundImage: `url(${backgroundImage6})` }}></SwiperSlide>
             </Swiper>
         </>
 
