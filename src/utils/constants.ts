@@ -57,6 +57,10 @@ export const navLinks = [
         title: 'Experience',
         href: 'experience'
     },
+    {
+        title: 'Contact',
+        href: 'contact'
+    }
 ]
 
 export const projects = [
@@ -140,6 +144,46 @@ export const skills = [
 ]
 
 export const experiences = [
+    {
+        role: 'Full Stack Developer',
+        company: 'OptimizedFT',
+        country: 'United States',
+        option: 'Remote',
+        start_date: 'Nov 2020',
+        end_date: 'Jan 2023',
+        works: [
+            'Completed Staking Reward contracts for NFTs and LP tokens',
+            'Participated in smart contract development and React Native mobile app development',
+            "Built NFT marketplace with Smart contract in Ethereum, Binance, Solana, etc.",
+            "Participated in building DAO and Defis and backends with NestJS",
+            "Researched several secure technologies for security and scalability for transactions, which includes Blockchain technologies like Ethereum and Hyperledger",
+            "Developed fast and efficient chaincode(written in Go) to manipulate, format client data and then store it in the ledger",
+            "Cooperated with Athena team in frontend development using React.js",
+            "Conducted research of AI products such as image processing(face recognition, detection of CVST from CT images) and NLP(Natural Language Processing) with other developers",
+            "Ability to use continuous integration and distribution pipelines to deploy applications",
+
+        ]
+    },
+    {
+        role: 'Full Stack Developer',
+        company: 'OptimizedFT',
+        country: 'United States',
+        option: 'Remote',
+        start_date: 'Nov 2020',
+        end_date: 'Jan 2023',
+        works: [
+            'Completed Staking Reward contracts for NFTs and LP tokens',
+            'Participated in smart contract development and React Native mobile app development',
+            "Built NFT marketplace with Smart contract in Ethereum, Binance, Solana, etc.",
+            "Participated in building DAO and Defis and backends with NestJS",
+            "Researched several secure technologies for security and scalability for transactions, which includes Blockchain technologies like Ethereum and Hyperledger",
+            "Developed fast and efficient chaincode(written in Go) to manipulate, format client data and then store it in the ledger",
+            "Cooperated with Athena team in frontend development using React.js",
+            "Conducted research of AI products such as image processing(face recognition, detection of CVST from CT images) and NLP(Natural Language Processing) with other developers",
+            "Ability to use continuous integration and distribution pipelines to deploy applications",
+
+        ]
+    },
     {
         role: 'Full Stack Developer',
         company: 'OptimizedFT',

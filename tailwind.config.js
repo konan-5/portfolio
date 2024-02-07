@@ -19,6 +19,9 @@ export default {
         'gray-light': '#f1f1f1',
         'grey': '#131723',
         'grey-light': '#222739'
+      },
+      boxShadow: {
+        'input': '0 0 0 2px rgba(51, 156, 253, 0.2)'
       }
     },
   },

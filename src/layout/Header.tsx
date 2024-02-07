@@ -31,7 +31,7 @@ const Header: React.FC = () => {
                                             to={item.href}
                                             smooth={true}
                                             duration={300}
-                                            className='text-grey dark:text-gray-light font-semibold font-popp py-2 pl-8 cursor-pointer'>
+                                            className='text-grey dark:text-gray-light hover:text-primary dark:hover:text-primary font-semibold font-popp py-2 pl-8 cursor-pointer'>
                                             {item.title}
                                         </ScrollLink>
                                     </li>
