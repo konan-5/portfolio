@@ -1,5 +1,4 @@
 import React from "react";
-import { Link as ScrollLink } from "react-scroll";
 import { socials } from "../utils/constants";
 
 const Footer: React.FC = () => {
@@ -8,15 +7,15 @@ const Footer: React.FC = () => {
             className="relative bg-white dark:bg-grey-light pt-8 md:pt-10 lg:pt-12">
             <div className="container px-8 mx-auto">
                 <div className="md:flex justify-between items-end">
-                    <div className="mb-4">
-                        <ScrollLink
-                            to='hero'
-                            smooth={true}
-                            duration={300}
-                            className='text-black dark:text-white cursor-pointer'>
-                            <p className='uppercase text-2xl font-bold font-rale mb-4'>Hiroshi</p>
-                        </ScrollLink>
-                        <a className="mt-4 md:text-lg text-primary dark:text-secondary" href="mailto:ikedahiroshi517@gmail.com">ikedahiroshi517@gmail.com</a>
+                    <div className="justify-between min-[530px]:flex md:block">
+                        <a className="mb-4 mx-auto md:text-lg text-grey dark:text-secondary flex items-end" href="mailto:ikedahiroshi517@gmail.com">
+                            <i className='bx bx-envelope mr-2 bx-sm'></i>
+                            <p className="">ikedahiroshi517@gmail.com</p>
+                        </a>
+                        <div className="mb-4 mx-auto md:text-lg text-grey dark:text-secondary flex items-end">
+                            <i className='bx bxs-map mr-2 bx-sm' ></i>
+                            <p className="">Sakurai City, Nara, Japan</p>
+                        </div>
                     </div>
                     <ul className="flex justify-center mb-4">
                         {
