@@ -57,6 +57,10 @@ export const navLinks = [
         title: 'Experience',
         href: 'experience'
     },
+    {
+        title: 'Contact',
+        href: 'contact'
+    }
 ]
 
 export const projects = [

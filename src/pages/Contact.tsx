@@ -61,7 +61,7 @@ const Contact: React.FC = () => {
                         />
                         <label
                             htmlFor="name"
-                            className="font-popp absolute left-3 px-4 top-0 mb-0 max-w-[90%] origin-[0_0] truncate leading-[1.6] transition-all duration-300 ease-out opacity-0 peer-focus:opacity-100 peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-focus:bg-white dark:peer-focus:bg-grey-light -z-10 peer-focus:z-10"
+                            className="rounded font-popp absolute left-3 px-4 top-0 mb-0 max-w-[90%] origin-[0_0] truncate leading-[1.6] transition-all duration-300 ease-out opacity-0 peer-focus:opacity-100 peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-focus:bg-white dark:peer-focus:bg-grey-light -z-10 peer-focus:z-10"
                         >Your Name
                         </label>
                     </div>
@@ -76,7 +76,7 @@ const Contact: React.FC = () => {
                         />
                         <label
                             htmlFor="email"
-                            className="font-popp absolute left-3 px-4 top-0 mb-0 max-w-[90%] origin-[0_0] truncate leading-[1.6] transition-all duration-300 ease-out opacity-0 peer-focus:opacity-100 peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-focus:bg-white dark:peer-focus:bg-grey-light -z-10 peer-focus:z-10"
+                            className="rounded font-popp absolute left-3 px-4 top-0 mb-0 max-w-[90%] origin-[0_0] truncate leading-[1.6] transition-all duration-300 ease-out opacity-0 peer-focus:opacity-100 peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-focus:bg-white dark:peer-focus:bg-grey-light -z-10 peer-focus:z-10"
                         >Your Email
                         </label>
                     </div>
@@ -91,7 +91,7 @@ const Contact: React.FC = () => {
                         />
                         <label
                             htmlFor="subject"
-                            className="font-popp absolute left-3 px-4 top-0 mb-0 max-w-[90%] origin-[0_0] truncate leading-[1.6] transition-all duration-300 ease-out opacity-0 peer-focus:opacity-100 peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-focus:bg-white dark:peer-focus:bg-grey-light -z-10 peer-focus:z-10"
+                            className="rounded font-popp absolute left-3 px-4 top-0 mb-0 max-w-[90%] origin-[0_0] truncate leading-[1.6] transition-all duration-300 ease-out opacity-0 peer-focus:opacity-100 peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-focus:bg-white dark:peer-focus:bg-grey-light -z-10 peer-focus:z-10"
                         >Subject
                         </label>
                     </div>
@@ -106,7 +106,7 @@ const Contact: React.FC = () => {
                         />
                         <label
                             htmlFor="message"
-                            className="font-popp absolute left-3 px-4 top-0 mb-0 max-w-[90%] origin-[0_0] truncate leading-[1.6] transition-all duration-300 ease-out opacity-0 peer-focus:opacity-100 peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-focus:bg-white dark:peer-focus:bg-grey-light -z-10 peer-focus:z-10"
+                            className="rounded font-popp absolute left-3 px-4 top-0 mb-0 max-w-[90%] origin-[0_0] truncate leading-[1.6] transition-all duration-300 ease-out opacity-0 peer-focus:opacity-100 peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-focus:bg-white dark:peer-focus:bg-grey-light -z-10 peer-focus:z-10"
                         >Message
                         </label>
                     </div>
