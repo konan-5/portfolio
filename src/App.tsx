@@ -9,6 +9,7 @@ import Projects from './pages/Projects'
 import Skills from './pages/Skills'
 
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from './layout/Footer'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Skills />
         <Experience />
         <Contact />
+        <Footer />
       </main>
     </>
   )
