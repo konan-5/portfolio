@@ -1,5 +1,6 @@
 import Header from './layout/Header'
 import About from './pages/About'
+import Experience from './pages/Experience'
 import Hero from './pages/Hero'
 import Projects from './pages/Projects'
 import Skills from './pages/Skills'
@@ -14,6 +15,7 @@ function App() {
         <About />
         <Projects />
         <Skills />
+        <Experience />
       </main>
     </>
   )
