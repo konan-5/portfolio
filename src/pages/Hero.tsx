@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
                         <img src={heroImage} alt="Hiroshi Ikeda Software Engineer" title="Hiroshi Ikeda | Software Engineer" className='rounded-full'></img>
                     </div>
                     <div className=''>
-                        <h1 className='text-white text-4xl md:text-5xl lg:text-7xl font-bold font-mont text-center md:text-left'>Hiroshi Ikeda</h1>
+                        <h1 className='text-white text-4xl md:text-5xl lg:text-7xl font-bold font-mont text-center md:text-left' title='Hiroshi Ikeda | Software Engineer'>Hiroshi Ikeda</h1>
                         <h2 className='mt-5 text-2xl md:text-3xl text-primary dark:text-secondary text-center font-semibold font-popp'>
                             <TypeWriter
                                 options={{
