@@ -1,24 +1,27 @@
-import project_1_1 from '../assets/projects/1_1.png'
-import project_1_2 from '../assets/projects/1_2.png'
-import project_1_3 from '../assets/projects/1_3.png'
-import project_2_1 from '../assets/projects/2_1.png'
-import project_2_2 from '../assets/projects/2_2.png'
-import project_2_3 from '../assets/projects/2_3.png'
-import project_3_1 from '../assets/projects/3_1.png'
-import project_3_2 from '../assets/projects/3_2.png'
-import project_3_3 from '../assets/projects/3_3.png'
-import project_4_1 from '../assets/projects/4_1.png'
-import project_4_2 from '../assets/projects/4_2.png'
-import project_4_3 from '../assets/projects/4_3.png'
-import project_5_1 from '../assets/projects/5_1.png'
-import project_5_2 from '../assets/projects/5_2.png'
-import project_5_3 from '../assets/projects/5_3.png'
-import project_6_1 from '../assets/projects/6_1.png'
-import project_6_2 from '../assets/projects/6_2.png'
-import project_6_3 from '../assets/projects/6_3.png'
-import project_7_1 from '../assets/projects/7_1.png'
-import project_7_2 from '../assets/projects/7_2.png'
-import project_7_3 from '../assets/projects/7_3.png'
+import moneyview_1 from '../assets/projects/moneyview-1.png'
+import moneyview_2 from '../assets/projects/moneyview-2.png'
+import moneyview_3 from '../assets/projects/moneyview-3.png'
+import portfolio_1 from '../assets/projects/portfolio-1.png'
+import portfolio_2 from '../assets/projects/portfolio-2.png'
+import portfolio_3 from '../assets/projects/portfolio-3.png'
+import crosswise_1 from '../assets/projects/crosswise-1.png'
+import crosswise_2 from '../assets/projects/crosswise-2.png'
+import crosswise_3 from '../assets/projects/crosswise-3.png'
+import cryptomines_1 from '../assets/projects/cryptomines-1.png'
+import cryptomines_2 from '../assets/projects/cryptomines-2.png'
+import cryptomines_3 from '../assets/projects/cryptomines-3.png'
+import chriscortazzo_1 from '../assets/projects/chriscortazzo-1.png'
+import chriscortazzo_2 from '../assets/projects/chriscortazzo-2.png'
+import chriscortazzo_3 from '../assets/projects/chriscortazzo-3.png'
+import mercato_1 from '../assets/projects/mercato-1.png'
+import mercato_2 from '../assets/projects/mercato-2.png'
+import mercato_3 from '../assets/projects/mercato-3.png'
+import nimoindustry_1 from '../assets/projects/nimoindustry-1.png'
+import nimoindustry_2 from '../assets/projects/nimoindustry-2.png'
+import nimoindustry_3 from '../assets/projects/nimoindustry-3.png'
+import perfecttrading_1 from '../assets/projects/perfecttrading-1.png'
+import perfecttrading_2 from '../assets/projects/perfecttrading-2.png'
+import perfecttrading_3 from '../assets/projects/perfecttrading-3.png'
 
 import htmlIcon from '../assets/skills/html.png'
 import cssIcon from '../assets/skills/css.png'
@@ -72,59 +75,59 @@ export const navLinks = [
 
 export const projects = [
     {
-        id: 0,
-        title: 'NimoBlock',
-        description: '',
-        images: [project_2_1, project_2_2, project_2_3],
-        project_link: '',
+        title: 'Personal Porfolio Website',
+        description: 'My Personal Portfolio Website is a concise showcase of my work, skills, and accomplishments. It serves as a dynamic resume for potential employers or clients to explore my professional background and projects.',
+        images: [portfolio_1, portfolio_2, portfolio_3],
+        project_link: 'https://hiroshi-ikeda-jp.com/',
+        source_link: 'https://github.com/konan-5/portfolio'
+    },
+    {
+        title: 'Quick Personal Loans with MoneyView',
+        description: 'MoneyView offers easy access to personal loans up to ₹10 Lakhs. Enjoy a fast, online process, flexible repayment, and competitive rates for both salaried and self-employed individuals.',
+        images: [moneyview_1, moneyview_2, moneyview_3],
+        project_link: 'https://moneyview.in/',
         source_link: ''
     },
     {
-        id: 1,
-        title: 'MoneyView',
-        description: '',
-        images: [project_1_1, project_1_2, project_1_3],
-        project_link: '',
+        title: 'Crosswise: Bridging DeFi and CeFi',
+        description: 'Crosswise Finance is a next-generation cross-chain DEX aimed at merging the worlds of centralized finance (CeFi) and decentralized finance (DeFi). It offers users unparalleled DeFi access, high liquidity, low slippage, and efficient cross-chain swaps.',
+        images: [crosswise_1, crosswise_2, crosswise_3],
+        project_link: 'https://crosswise.finance/',
         source_link: ''
     },
     {
-        id: 2,
-        title: 'CrossWise',
-        description: '',
-        images: [project_3_1, project_3_2, project_3_3],
-        project_link: '',
+        title: 'CryptoMines: Sci-Fi Gaming on BNB Chain',
+        description: 'Dive into CryptoMines, a sci-fi play-to-earn game leveraging the BNB Chain. Players can explore virtual worlds, collect NFTs, and earn rewards in an immersive metaverse setup.',
+        images: [cryptomines_1, cryptomines_2, cryptomines_3,],
+        project_link: 'https://cryptomines.app/',
         source_link: ''
     },
     {
-        id: 3,
-        title: 'Mercato',
-        description: '',
-        images: [project_4_1, project_4_2, project_4_3,],
-        project_link: '',
+        title: 'Chris Cortazzo Malibu Real Estate',
+        description: 'Explore Malibu real estate with Chris Cortazzo, the go-to agent for luxury beach homes. Offering personalized service and extensive local knowledge, Chris connects clients with their dream properties in Malibu\'s exclusive market.',
+        images: [chriscortazzo_1, chriscortazzo_2, chriscortazzo_3,],
+        project_link: 'https://chriscortazzo.com/',
         source_link: ''
     },
     {
-        id: 4,
-        title: 'Cortazzo',
-        description: '',
-        images: [project_5_1, project_5_2, project_5_3,],
-        project_link: '',
+        title: 'Mercato: Your Local Grocery Marketplace',
+        description: 'Mercato connects you with local grocery stores to easily shop for fresh, high-quality food online. It offers a variety of products from independent merchants, including seasonal produce, hand-cut meats, artisanal cheeses, and more, all delivered to your door.',
+        images: [mercato_1, mercato_2, mercato_3,],
+        project_link: 'https://www.mercato.com/',
         source_link: ''
     },
     {
-        id: 5,
-        title: 'CryptoMines',
-        description: '',
-        images: [project_6_1, project_6_2, project_6_3,],
-        project_link: '',
+        title: 'Nimo Industries: Streamlining Lending',
+        description: 'Nimo Industries offers a streamlined digital lending solution that automates and simplifies loan processes. It focuses on improving efficiency and compliance, providing a user-friendly platform for lenders and borrowers.',
+        images: [nimoindustry_1, nimoindustry_2, nimoindustry_3],
+        project_link: 'https://nimoindustries.com/',
         source_link: ''
     },
     {
-        id: 6,
-        title: 'How to Trade',
-        description: '',
-        images: [project_7_1, project_7_2, project_7_3,],
-        project_link: '',
+        title: 'Trade Smartly with Perfect Your Trading',
+        description: 'Learn to trade confidently with Perfect Your Trading\'s expert courses and personalized coaching, designed for all levels to master the markets.',
+        images: [perfecttrading_1, perfecttrading_2, perfecttrading_3,],
+        project_link: 'https://www.perfectyourtrading.com',
         source_link: ''
     },
 ]

@@ -13,14 +13,14 @@ const Contact: React.FC = () => {
     const handleSend = () => {
 
         if (!email) {
-            toast.error('Please enter an email address.', { autoClose: 3000 })
+            toast.error('Please enter an email address.', { autoClose: 2000 })
             return
         }
 
         if (email) {
             let emailValidSttus = emailRegex.test(email);
             if (!emailValidSttus) {
-                toast.error('Please enter a correct email address.', { autoClose: 3000 })
+                toast.error('Please enter a correct email address.', { autoClose: 2000 })
                 return;
             }
             setLoading(true);
@@ -33,10 +33,10 @@ const Contact: React.FC = () => {
                 }
             ).then(() => {
                 setLoading(false)
-                toast.success('Message received. Thank you!', { autoClose: 3000 });
+                toast.success('Message received. Thank you!', { autoClose: 2000 });
             }).catch(() => {
                 setLoading(false)
-                toast.error('Message not sent. Please try again.', { autoClose: 3000 })
+                toast.error('Message not sent. Please try again.', { autoClose: 2000 })
             }).then(() => {
                 setName('')
                 setEmail('')
