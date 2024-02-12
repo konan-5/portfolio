@@ -1,5 +1,4 @@
 export type ProjectItemProps = {
-    id: number;
     title: string;
     description: string;
     images: string[];
