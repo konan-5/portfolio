@@ -111,7 +111,7 @@ const Contact: React.FC = () => {
                         </label>
                     </div>
                     <button onClick={handleSend}
-                        className="font-popp w-full bg-primary text-white hover:bg-[#4ea9ff] px-4 py-3 rounded-md mb-4 text-lg">
+                        className="font-popp w-full bg-primary text-white hover:bg-[#4ea9ff] px-4 py-3 rounded-md mb-4 text-lg" disabled={loading ? true : false}>
                         {
                             loading &&
                             <svg aria-hidden="true" className="mr-2 inline w-6 h-6 animate-spin fill-gray-light" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
