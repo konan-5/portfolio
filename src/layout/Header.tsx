@@ -2,10 +2,14 @@ import React from 'react'
 import { navLinks } from '../utils/constants'
 import ThemeToggler from '../components/ThemeToggler'
 import { Link as ScrollLink } from "react-scroll";
+import logoDark from '../assets/logo-dark.png';
+import logoLight from '../assets/logo-light.png';
+import { useTheme } from '../contexts/ThemeProvider';
 
 const Header: React.FC = () => {
 
     const [hamburger, setHamburger] = React.useState<boolean>(false);
+    const { theme } = useTheme();
 
     return (
         <>
@@ -16,11 +20,9 @@ const Header: React.FC = () => {
                         to='hero'
                         smooth={true}
                         duration={300}
-                        className='text-black dark:text-white cursor-pointer'>
-                        <div className=''>
-
-                        </div>
-                        <p className='uppercase text-2xl font-bold font-rale'>Hiroshi</p>
+                        className='text-black flex items-center dark:text-white cursor-pointer'>
+                        <img className="w-[35px] h-[35px]" src={theme == "light" ? logoLight : logoDark} alt="" />
+                        <p className='hidden sm:inline ml-4 uppercase text-2xl font-bold font-rale'>Hiroshi</p>
                     </ScrollLink>
                     <div className='flex items-center'>
                         <ul className='hidden md:flex'>
