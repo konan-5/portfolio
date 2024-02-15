@@ -6,11 +6,11 @@ const About: React.FC = () => {
             <div className='container mx-auto'>
                 <h2 className='mb-10 text-center text-3xl md:text-4xl font-rale font-medium dark:text-white' id="about-title">About</h2>
                 <h3 className='max-w-[90%] md:max-w-[80%] mx-auto text-sm md:text-lg text-center dark:text-secondary' id="about-description">
-                    Full Stack Developer with comprehensive about 6 years background in software engineering and over 3 years of specialized experience in blockchain technology focusing on Solidity and Rust for smart contract development and blockchain infrastructure. Strong knowledge in crafting Dapps utilizing frameworks like React and Vue, with a strong commitment to writing clean, scalable, and reusable code. Led development of $100K research project which was deemed a “silver standard” by the client. Known for exceptional self-management skills on solo projects and seamless integration into team environments. Passionate about leveraging my technical skills and industry knowledge to drive forward the adoption and development of blockchain technology, aiming to deliver cutting-edge projects that meet and exceed project goals.
+                    A Full Stack Developer with around 6 years of software engineering expertise and more than 3 years in blockchain technology, focusing on Solidity and Rust for smart contract development. Has in-depth experience with React and Vue in creating decentralized applications (Dapps), emphasizing clean, scalable, and maintainable code. Recognized for excellent self-management in solo projects and effective teamwork. Driven by a passion to advance blockchain adoption and development, committed to delivering innovative projects that surpass objectives.
                 </h3>
             </div>
         </Element>
     )
 }
 
-export default About;
+export default About;   

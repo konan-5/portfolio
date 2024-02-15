@@ -6,7 +6,7 @@ const Experience: React.FC = () => {
     return (
         <Element name={'experience'} id='skills' className="pb-10 py-20 md:py-20 bg-white dark:bg-grey-light">
             <div className='container px-4 mx-auto'>
-                <h2 className='mb-10 text-center text-3xl md:text-4xl font-rale font-medium dark:text-white' id="about-title">Experience</h2>
+                <h2 className='mb-10 text-center text-3xl md:text-4xl font-rale font-medium dark:text-white' id="experience-title">Experience</h2>
                 <ul className="px-2">
                     {
                         experiences.map((item, key) => (
