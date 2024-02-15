@@ -48,7 +48,7 @@ const Contact: React.FC = () => {
     return (
         <Element name={'contact'} id='contact' className="pb-10 py-20 md:py-20">
             <div className='container px-4 mx-auto'>
-                <h2 className='mb-10 text-center text-3xl md:text-4xl font-rale font-medium dark:text-white' id="about-title">Contact</h2>
+                <h2 className='mb-10 text-center text-3xl md:text-4xl font-rale font-medium dark:text-white' id="contact-title">Contact</h2>
                 <div className="w-full md:w-[25rem] lg:w-[31.75rem] mx-auto">
                     <div className="relative mb-6">
                         <input
@@ -111,7 +111,7 @@ const Contact: React.FC = () => {
                         </label>
                     </div>
                     <button onClick={handleSend}
-                        className="font-popp w-full bg-primary text-white hover:bg-[#4ea9ff] px-4 py-3 rounded-md mb-4 text-lg">
+                        className="font-popp w-full bg-primary text-white hover:bg-[#4ea9ff] px-4 py-3 rounded-md mb-4 text-lg" disabled={loading ? true : false}>
                         {
                             loading &&
                             <svg aria-hidden="true" className="mr-2 inline w-6 h-6 animate-spin fill-gray-light" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
