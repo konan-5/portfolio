@@ -219,6 +219,11 @@ export const socials = [
         title: 'Hiroshi Ikeda | Discord'
     },
     {
+        icon: skypeIcon,
+        href: 'https://join.skype.com/invite/vaSfWUug57Rk',
+        title: 'Hiroshi Ikeda | Skype'
+    },
+    {
         icon: telegramIcon,
         href: 'https://t.me/konan0x5',
         title: 'Hiroshi Ikeda | Telegram'
@@ -227,11 +232,6 @@ export const socials = [
         icon: slackIcon,
         href: 'https://join.slack.com/t/developmentworld/shared_invite/zt-2c8kt1a1v-Q7uX_8QK4ej57WYan8x8Yg',
         title: 'Hiroshi Ikeda | Slack'
-    },
-    {
-        icon: skypeIcon,
-        href: 'https://join.skype.com/invite/vaSfWUug57Rk',
-        title: 'Hiroshi Ikeda | Skype'
     },
 ]
 
