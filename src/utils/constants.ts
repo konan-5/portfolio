@@ -42,12 +42,12 @@ import mongodbIcon from '../assets/skills/mongodb.png'
 import mysqlIcon from '../assets/skills/mysql.png'
 import postgresqlIcon from '../assets/skills/postgresql.png'
 
-import linkedinIcon from '../assets/socials/linkedin.png'
-import githubIcon from '../assets/socials/github.png'
-import discordIcon from '../assets/socials/discord.png'
-import telegramIcon from '../assets/socials/telegram.png'
-import slackIcon from '../assets/socials/slack.png'
-import skypeIcon from '../assets/socials/skype.png'
+import linkedinIcon from '../assets/icons/linkedin.png'
+import githubIcon from '../assets/icons/github.png'
+import discordIcon from '../assets/icons/discord.png'
+import telegramIcon from '../assets/icons/telegram.png'
+import slackIcon from '../assets/icons/slack.png'
+import skypeIcon from '../assets/icons/skype.png'
 
 export const navLinks = [
     {
@@ -77,6 +77,7 @@ export const projects = [
         title: 'Personal Porfolio Website',
         description: 'My Personal Portfolio Website is a concise showcase of my work, skills, and accomplishments. It serves as a dynamic resume for potential employers or clients to explore my professional background and projects.',
         images: [portfolio_1, portfolio_2, portfolio_3],
+        project_link: '',
         source_link: 'https://github.com/konan-5/portfolio'
     },
     {

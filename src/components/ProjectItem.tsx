@@ -3,13 +3,14 @@ import { ProjectItemProps } from "../utils/interfaces";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 import linkIcon from '../assets/icons/link.png'
+import sourceIcon from '../assets/icons/source.png'
 
 import 'swiper/css';
 import 'swiper/css/pagination';
 
 const ProjectItem: React.FC<ProjectItemProps> = (props) => {
 
-    const { images, title, description, project_link } = props;
+    const { images, title, description, project_link, source_link } = props;
     return (
         <div className="w-full rounded-lg pt-4 shadow-[0px_4px_10px_2px_grey] ">
             <div className="relative w-full">
@@ -32,6 +33,12 @@ const ProjectItem: React.FC<ProjectItemProps> = (props) => {
                                                 <img src={linkIcon} alt="Live Site " title="Go to the site" />
                                             </a>
                                         }
+                                        {source_link &&
+                                            <a href={source_link} className="w-[50px] h-[50px] mx-4 shadow-[1px_2px_6px_3px_rgba(50,50,50,.8)] rounded-full p-2" target="_blank">
+                                                <img src={sourceIcon} alt="Live Site " title="Go to the source code" />
+                                            </a>
+                                        }
+
                                     </div>
                                 </div>
                             </SwiperSlide>
