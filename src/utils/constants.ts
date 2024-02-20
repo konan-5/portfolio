@@ -44,7 +44,6 @@ import postgresqlIcon from '../assets/skills/postgresql.png'
 
 import linkedinIcon from '../assets/socials/linkedin.png'
 import githubIcon from '../assets/socials/github.png'
-import figmaIcon from '../assets/socials/figma.png'
 import discordIcon from '../assets/socials/discord.png'
 import telegramIcon from '../assets/socials/telegram.png'
 import slackIcon from '../assets/socials/slack.png'
@@ -78,7 +77,6 @@ export const projects = [
         title: 'Personal Porfolio Website',
         description: 'My Personal Portfolio Website is a concise showcase of my work, skills, and accomplishments. It serves as a dynamic resume for potential employers or clients to explore my professional background and projects.',
         images: [portfolio_1, portfolio_2, portfolio_3],
-        project_link: 'https://hiroshi-ikeda-jp.com/',
         source_link: 'https://github.com/konan-5/portfolio'
     },
     {
@@ -163,41 +161,41 @@ export const experiences = [
         end_date: 'Jan 2023',
         works: [
             "Worked with web3 libraries to interact with blockchain networks, integrating various blockchain functionalities into applications.",
-            "Architected and developed a Level 2 Blockchain system using IMX service, demonstrating strong expertise in blockchain development.",
+            "Architected and developed a  Blockchain system using IMX service, demonstrating strong expertise in blockchain development.",
             "Contributed to DeFi platform frontend MVP using React and Web3.js",
             "Had Rich experience in Blockchain technology, Up to Date skills with international teammates. Using TypeScript, React, Web3.js, and so on.",
             "Built and launched Smart Contracts for Genesis NFT, Pode and Marketplace as well. I’ve used ERC-721 based NFT rather than ERC-1155.",
             "Created over 5 full-stack solutions, addressing 40% of use cases, from web UI to backend.",
-            "Gained about 2 months of hands-on experience with Docker, Kubernetes, and CI/CD tools for automated deployment.",
+            "Gained hands-on experience with Docker, Kubernetes, and CI/CD tools for automated deployment.",
         ]
     },
     {
         role: 'Full Stack Developer',
-        company: 'CXC Global',
-        country: 'Australia',
+        company: 'TESSAFOLD LLC',
+        country: 'Germany',
         option: 'Remote',
         start_date: 'May 2019',
         end_date: 'Oct 2020',
         works: [
-            "Developed and deployed the back-end using Express, Node.js, and MySQL, ensuring robust and efficient server-side functionality for about 5 months.",
+            "Developed and deployed the back-end using Express, Node.js, and MySQL, ensuring robust and efficient server-side functionality",
             "Provided valuable input for server-based Node.js software, leading to a 15% improvement in overall work quality.",
             "Actively participated in 20+ weekly code reviews, ensuring code quality and receiving mentorship from senior developers.",
-            "Built backend for finance websites with Django and Data analytics projects with python 3.10.",
+            "Built backend for finance websites with Django and Data analytics projects with python.",
             "Worked with services like EC2, Lambda, SES, SNS, VPC, CloudFront, CloudFormation etc.",
-            "Integrated Stripe in 2 projects as a payment gateway to enable secure and seamless subscriptions.",
+            "Integrated Stripe as a payment gateway to enable secure and seamless subscriptions.",
         ]
     },
     {
         role: 'Frontend Developer',
-        company: 'Tohoku Electric Power',
-        country: 'Japan',
+        company: 'DRY Software development',
+        country: 'Taiwan',
         option: 'Hybrid',
         start_date: 'July 2017',
         end_date: 'Apr 2019',
         works: [
-            "Cooperated with 2 senior developers to create frontends and backends for large-size projects and clean interfaces and simple, intuitive interactions.",
+            "Cooperated with senior developers to create frontends and backends for large-size projects and clean interfaces and simple, intuitive interactions.",
             "Applied object oriented methodologies and core J2EE design patterns like Factory, Facade, Business, Delegate, Service Locator and Singleton.",
-            "Rebuilt 3 year old SaaS application in React 15 and Redux with full user experience redesign to release a beta MVP in 7 months.",
+            "Rebuilt 3 year old SaaS application in React and Redux with full user experience redesign to release a beta MVP",
             "Good experience in HTML5, Angular, React, Vue, TypeScript, behavior-driven development, developer-driven test methodologies, and continuous integration & deployment.",
             "Used understanding of React fundamentals to promote better component lifecycle practices, increasing turnaround speed by 17% with 100% deadline adherence.",
         ]
@@ -214,11 +212,6 @@ export const socials = [
         icon: githubIcon,
         href: 'https://github.com/konan-5',
         title: 'Hiroshi Ikeda | Github'
-    },
-    {
-        icon: figmaIcon,
-        href: 'https://www.figma.com/@ikedahiroshi',
-        title: 'Hiroshi Ikeda | Linkedin'
     },
     {
         icon: discordIcon,
