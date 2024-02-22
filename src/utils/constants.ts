@@ -221,7 +221,7 @@ export const socials = [
     },
     {
         icon: skypeIcon,
-        href: 'https://join.skype.com/invite/vaSfWUug57Rk',
+        href: 'https://join.skype.com/invite/FVrjqpNuKfc3',
         title: 'Hiroshi Ikeda | Skype'
     },
     {
