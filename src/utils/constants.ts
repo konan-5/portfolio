@@ -188,8 +188,8 @@ export const experiences = [
     },
     {
         role: 'Frontend Developer',
-        company: 'DRY Software development',
-        country: 'Taiwan',
+        company: 'JOHO Technology',
+        country: 'Japan',
         option: 'Hybrid',
         start_date: 'July 2017',
         end_date: 'Apr 2019',
@@ -226,7 +226,7 @@ export const socials = [
     },
     {
         icon: telegramIcon,
-        href: 'https://t.me/konan0x5',
+        href: 'https://t.me/dx0000',
         title: 'Hiroshi Ikeda | Telegram'
     },
     {
