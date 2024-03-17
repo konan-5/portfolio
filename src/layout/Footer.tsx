@@ -1,20 +1,20 @@
 import React from "react";
 import { socials } from "../utils/constants";
-import { toast } from "react-toastify";
+// import { toast } from "react-toastify";
 
 const Footer: React.FC = () => {
 
-    const textToCopy = "81 50 5809 5926"; // The text you want to copy
+    // const textToCopy = "81 50 5809 5926"; // The text you want to copy
 
-    const copyToClipboard = async () => {
-        try {
-            await navigator.clipboard.writeText(textToCopy);
-            toast.success(`Copied to clipboard`, { autoClose: 2000 })
-        } catch (err) {
-            toast.error(`Failed to copy. Please try again`, {autoClose: 2000})
-            console.error('Failed to copy: ', err);
-        }
-    };
+    // const copyToClipboard = async () => {
+    //     try {
+    //         await navigator.clipboard.writeText(textToCopy);
+    //         toast.success(`Copied to clipboard`, { autoClose: 2000 })
+    //     } catch (err) {
+    //         toast.error(`Failed to copy. Please try again`, {autoClose: 2000})
+    //         console.error('Failed to copy: ', err);
+    //     }
+    // };
 
     return (
         <footer
@@ -26,10 +26,16 @@ const Footer: React.FC = () => {
                             <i className='bx bx-envelope mr-2 bx-sm'></i>
                             <p className="">ikedahiroshi517@gmail.com</p>
                         </a>
-                        <a onClick={() => copyToClipboard()} className="mb-4 mx-auto md:text-lg text-grey dark:text-secondary flex items-end cursor-pointer">
+
+                        <div className="mb-4 mx-auto md:text-lg text-grey dark:text-secondary flex items-end">
+                            <i className='bx bx-current-location mr-2 bx-sm'></i>
+                            <p className="">Sakurai, Nara, Japan</p>
+                        </div>
+
+                        {/* <a onClick={() => copyToClipboard()} className="mb-4 mx-auto md:text-lg text-grey dark:text-secondary flex items-end cursor-pointer">
                             <i className='bx bx-phone mr-2 bx-sm' ></i>
                             <p className="">+81 50 5809 5926</p>
-                        </a>
+                        </a> */}
                     </div>
                     <ul className="flex justify-center mb-4">
                         {
