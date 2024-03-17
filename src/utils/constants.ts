@@ -1,9 +1,12 @@
-import moneyview_1 from '../assets/projects/moneyview-1.png'
-import moneyview_2 from '../assets/projects/moneyview-2.png'
-import moneyview_3 from '../assets/projects/moneyview-3.png'
 import portfolio_1 from '../assets/projects/portfolio-1.png'
 import portfolio_2 from '../assets/projects/portfolio-2.png'
 import portfolio_3 from '../assets/projects/portfolio-3.png'
+import pierprotocol_1 from '../assets/projects/pierprotocol-1.png'
+import pierprotocol_2 from '../assets/projects/pierprotocol-2.png'
+import pierprotocol_3 from '../assets/projects/pierprotocol-3.png'
+import moneyview_1 from '../assets/projects/moneyview-1.png'
+import moneyview_2 from '../assets/projects/moneyview-2.png'
+import moneyview_3 from '../assets/projects/moneyview-3.png'
 import crosswise_1 from '../assets/projects/crosswise-1.png'
 import crosswise_2 from '../assets/projects/crosswise-2.png'
 import crosswise_3 from '../assets/projects/crosswise-3.png'
@@ -79,6 +82,13 @@ export const projects = [
         images: [portfolio_1, portfolio_2, portfolio_3],
         project_link: '',
         source_link: 'https://github.com/konan-5/portfolio'
+    },
+    {
+        title: 'Pierprotocol: OTC market place',
+        description: 'A cutting-edge multi-chain peer-to-peer protocol, transforming digital asset exchange with unmatched security and speed across diverse blockchains.',
+        images: [pierprotocol_1, pierprotocol_2, pierprotocol_3],
+        project_link: 'https://pierprotocol.com',
+        source_link: ''
     },
     {
         title: 'Quick Personal Loans with MoneyView',
@@ -206,7 +216,7 @@ export const experiences = [
 export const socials = [
     {
         icon: linkedinIcon,
-        href: 'https://www.linkedin.com/in/ikeda-hiroshi',
+        href: 'https://www.linkedin.com/in/hiroshi-ikeda',
         title: 'Hiroshi Ikeda | Linkedin'
     },
     {
