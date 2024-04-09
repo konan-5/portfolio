@@ -49,8 +49,6 @@ import linkedinIcon from '../assets/icons/linkedin.png'
 import githubIcon from '../assets/icons/github.png'
 import discordIcon from '../assets/icons/discord.png'
 import telegramIcon from '../assets/icons/telegram.png'
-import slackIcon from '../assets/icons/slack.png'
-import skypeIcon from '../assets/icons/skype.png'
 
 export const navLinks = [
     {
@@ -226,23 +224,13 @@ export const socials = [
     },
     {
         icon: discordIcon,
-        href: 'https://discord.gg/KuwYFdPt',
+        href: 'https://discord.com/users/416826665616801793',
         title: 'Hiroshi Ikeda | Discord'
     },
     {
-        icon: skypeIcon,
-        href: 'https://join.skype.com/invite/FVrjqpNuKfc3',
-        title: 'Hiroshi Ikeda | Skype'
-    },
-    {
         icon: telegramIcon,
-        href: 'https://t.me/dx0000',
+        href: 'https://t.me/konan517',
         title: 'Hiroshi Ikeda | Telegram'
-    },
-    {
-        icon: slackIcon,
-        href: 'https://join.slack.com/t/developmentworld/shared_invite/zt-2c8kt1a1v-Q7uX_8QK4ej57WYan8x8Yg',
-        title: 'Hiroshi Ikeda | Slack'
     },
 ]
 

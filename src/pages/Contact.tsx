@@ -18,7 +18,7 @@ const Contact: React.FC = () => {
         }
 
         if (email) {
-            let emailValidSttus = emailRegex.test(email);
+            const emailValidSttus = emailRegex.test(email);
             if (!emailValidSttus) {
                 toast.error('Please enter a correct email address.', { autoClose: 2000 })
                 return;
