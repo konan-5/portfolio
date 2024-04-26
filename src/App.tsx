@@ -10,7 +10,6 @@ import Skills from './pages/Skills'
 
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './layout/Footer'
-import ScrollToTop from './components/ScrollToTop'
 
 function App() {
 
@@ -27,7 +26,6 @@ function App() {
         <Contact />
         <Footer />
       </main>
-      <ScrollToTop />
     </>
   )
 }
