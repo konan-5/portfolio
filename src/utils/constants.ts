@@ -45,10 +45,11 @@ import mongodbIcon from '../assets/skills/mongodb.png'
 import mysqlIcon from '../assets/skills/mysql.png'
 import postgresqlIcon from '../assets/skills/postgresql.png'
 
-import linkedinIcon from '../assets/icons/linkedin.png'
+// import linkedinIcon from '../assets/icons/linkedin.png'
+import upworkIcon from '../assets/icons/upwork.png'
 import githubIcon from '../assets/icons/github.png'
 import discordIcon from '../assets/icons/discord.png'
-import telegramIcon from '../assets/icons/telegram.png'
+// import telegramIcon from '../assets/icons/telegram.png'
 
 export const navLinks = [
     {
@@ -212,26 +213,31 @@ export const experiences = [
 ]
 
 export const socials = [
+    // {
+    //     icon: linkedinIcon,
+    //     href: 'https://www.linkedin.com/in/hiroshi-ikeda',
+    //     title: 'Hiroshi Ikeda & Linkedin'
+    // },
     {
-        icon: linkedinIcon,
-        href: 'https://www.linkedin.com/in/hiroshi-ikeda',
-        title: 'Hiroshi Ikeda | Linkedin'
+        icon: upworkIcon,
+        href: 'https://www.upwork.com/freelancers/~0194e76cb515f9c3c8',
+        title: 'Hiroshi Ikeda & Upwork'
     },
     {
         icon: githubIcon,
         href: 'https://github.com/konan-5',
-        title: 'Hiroshi Ikeda | Github'
+        title: 'Hiroshi Ikeda & Github'
     },
     {
         icon: discordIcon,
         href: 'https://discord.com/users/416826665616801793',
-        title: 'Hiroshi Ikeda | Discord'
+        title: 'Hiroshi Ikeda & Discord'
     },
-    {
-        icon: telegramIcon,
-        href: 'https://t.me/konan517',
-        title: 'Hiroshi Ikeda | Telegram'
-    },
+    // {
+    //     icon: telegramIcon,
+    //     href: 'https://t.me/konan517',
+    //     title: 'Hiroshi Ikeda & Telegram'
+    // },
 ]
 
 
