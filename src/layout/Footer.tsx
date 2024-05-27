@@ -1,20 +1,21 @@
 import React from "react";
 import { socials } from "../utils/constants";
-// import { toast } from "react-toastify";
+import mailIcon from "../assets/icons/mail.png";
+import phoneIcon from "../assets/icons/phone.png";
+import { toast } from "react-toastify";
 
 const Footer: React.FC = () => {
 
-    // const textToCopy = "81 50 5809 5926"; // The text you want to copy
+    const textToCopy = "+815058095926"; // The text you want to copy
 
-    // const copyToClipboard = async () => {
-    //     try {
-    //         await navigator.clipboard.writeText(textToCopy);
-    //         toast.success(`Copied to clipboard`, { autoClose: 2000 })
-    //     } catch (err) {
-    //         toast.error(`Failed to copy. Please try again`, {autoClose: 2000})
-    //         console.error('Failed to copy: ', err);
-    //     }
-    // };
+    const copyToClipboard = async () => {
+        try {
+            await navigator.clipboard.writeText(textToCopy);
+            toast.success(`Copied to clipboard`, { autoClose: 2000 })
+        } catch (err) {
+            toast.error(`Failed to copy. Please try again`, { autoClose: 2000 })
+        }
+    };
 
     return (
         <footer
@@ -22,20 +23,18 @@ const Footer: React.FC = () => {
             <div className="container px-8 mx-auto">
                 <div className="md:flex justify-between items-end">
                     <div className="justify-between min-[530px]:flex md:block">
-                        <a className="mb-4 mx-auto md:text-lg text-grey dark:text-secondary flex items-end" href="mailto:ikedahiroshi517@gmail.com">
-                            <i className='bx bx-envelope mr-2 bx-sm'></i>
+                        <a className="mb-4 mx-auto md:text-lg text-grey dark:text-secondary flex items-end gap-4" href="mailto:ikedahiroshi517@gmail.com">
+                            <img className="w-[26px]" src={mailIcon} alt="email" />
                             <p className="">ikedahiroshi517@gmail.com</p>
                         </a>
 
-                        <div className="mb-4 mx-auto md:text-lg text-grey dark:text-secondary flex items-end">
-                            <i className='bx bx-current-location mr-2 bx-sm'></i>
-                            <p className="">Sakurai, Nara, Japan</p>
-                        </div>
-
-                        {/* <a onClick={() => copyToClipboard()} className="mb-4 mx-auto md:text-lg text-grey dark:text-secondary flex items-end cursor-pointer">
-                            <i className='bx bx-phone mr-2 bx-sm' ></i>
+                        <a
+                            onClick={copyToClipboard}
+                            className="mb-4 mx-auto md:text-lg text-grey dark:text-secondary flex items-end gap-4 "
+                            href="#">
+                            <img className="w-[26px]" src={phoneIcon} alt="phone" />
                             <p className="">+81 50 5809 5926</p>
-                        </a> */}
+                        </a>
                     </div>
                     <ul className="flex justify-center mb-4">
                         {

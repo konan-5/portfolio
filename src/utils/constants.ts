@@ -26,29 +26,34 @@ import perfecttrading_1 from '../assets/projects/perfecttrading-1.png'
 import perfecttrading_2 from '../assets/projects/perfecttrading-2.png'
 import perfecttrading_3 from '../assets/projects/perfecttrading-3.png'
 
-import htmlIcon from '../assets/skills/html.png'
-import cssIcon from '../assets/skills/css.png'
 import javascriptIcon from '../assets/skills/javascript.png'
 import typescriptIcon from '../assets/skills/typescript.png'
-import nodejsIcon from '../assets/skills/nodejs.png'
-import reactIcon from '../assets/skills/react.png'
-import vueIcon from '../assets/skills/vue.png'
-import angularIcon from '../assets/skills/angular.png'
 import solidityIcon from '../assets/skills/solidity.png'
 import rustIcon from '../assets/skills/rust.png'
+import goIcon from '../assets/skills/go.png'
+import pythonIcon from '../assets/skills/python.png'
+import nodejsIcon from '../assets/skills/nodejs.png'
+import reactIcon from '../assets/skills/react.png'
+import nextIcon from '../assets/skills/next.png'
+import vueIcon from '../assets/skills/vue.png'
+import expressIcon from '../assets/skills/express.png'
+import nestIcon from '../assets/skills/nest.png'
+import djangoIcon from '../assets/skills/django.png'
+import polkadotIcon from '../assets/skills/polkadot.png'
+import cosmosIcon from '../assets/skills/cosmos.png'
+import tensorflowIcon from '../assets/skills/tensorflow.png'
+import pytorchIcon from '../assets/skills/pytorch.png'
+// import mongodbIcon from '../assets/skills/mongodb.png'
+// import postgresqlIcon from '../assets/skills/postgresql.png'
 import awsIcon from '../assets/skills/aws.png'
 import kubernetesIcon from '../assets/skills/kubernetes.png'
-import pythonIcon from '../assets/skills/python.png'
-import djangoIcon from '../assets/skills/django.png'
-import phpIcon from '../assets/skills/php.png'
-import mongodbIcon from '../assets/skills/mongodb.png'
-import mysqlIcon from '../assets/skills/mysql.png'
-import postgresqlIcon from '../assets/skills/postgresql.png'
+import dockerIcon from '../assets/skills/docker.png'
 
-// import linkedinIcon from '../assets/icons/linkedin.png'
-import upworkIcon from '../assets/icons/upwork.png'
+import xIcon from '../assets/icons/x.png'
+import linkedinIcon from '../assets/icons/linkedin.png'
 import githubIcon from '../assets/icons/github.png'
-import discordIcon from '../assets/icons/discord.png'
+// import upworkIcon from '../assets/icons/upwork.png'
+// import discordIcon from '../assets/icons/discord.png'
 // import telegramIcon from '../assets/icons/telegram.png'
 
 export const navLinks = [
@@ -141,24 +146,24 @@ export const projects = [
 ]
 
 export const skills = [
-    { skill: "html", icon: htmlIcon },
-    { skill: "css", icon: cssIcon },
     { skill: "javascript", icon: javascriptIcon },
     { skill: "typescript", icon: typescriptIcon },
-    { skill: "nodejs", icon: nodejsIcon },
-    { skill: "react", icon: reactIcon },
-    { skill: "vue", icon: vueIcon },
-    { skill: "angular", icon: angularIcon },
     { skill: "solidity", icon: solidityIcon },
     { skill: "rust", icon: rustIcon },
+    { skill: "go", icon: goIcon },
+    { skill: "python", icon: pythonIcon },
+    { skill: "nodejs", icon: nodejsIcon },
+    { skill: "react", icon: reactIcon },
+    { skill: "next", icon: nextIcon },
+    { skill: "vue", icon: vueIcon },
+    { skill: "nest", icon: nestIcon },
+    { skill: "polkadot", icon: polkadotIcon },
+    { skill: "cosmos", icon: cosmosIcon },
+    { skill: "tensorflow", icon: tensorflowIcon },
+    { skill: "pytorch", icon: pytorchIcon },
     { skill: "aws", icon: awsIcon },
     { skill: "kubernetes", icon: kubernetesIcon },
-    { skill: "python", icon: pythonIcon },
-    { skill: "django", icon: djangoIcon },
-    { skill: "php", icon: phpIcon },
-    { skill: "mongodb", icon: mongodbIcon },
-    { skill: "mysql", icon: mysqlIcon },
-    { skill: "postgresql", icon: postgresqlIcon },
+    { skill: "docker", icon: dockerIcon },
 ]
 
 export const experiences = [
@@ -213,26 +218,31 @@ export const experiences = [
 ]
 
 export const socials = [
-    // {
-    //     icon: linkedinIcon,
-    //     href: 'https://www.linkedin.com/in/hiroshi-ikeda',
-    //     title: 'Hiroshi Ikeda & Linkedin'
-    // },
     {
-        icon: upworkIcon,
-        href: 'https://www.upwork.com/freelancers/~0194e76cb515f9c3c8',
-        title: 'Hiroshi Ikeda & Upwork'
+        icon: xIcon,
+        href: 'https://x.com/ikedahiroshi517',
+        title: 'Hiroshi Ikeda & X'
+    },
+    {
+        icon: linkedinIcon,
+        href: 'https://www.linkedin.com/in/ikedahiroshi517',
+        title: 'Hiroshi Ikeda & Linkedin'
     },
     {
         icon: githubIcon,
         href: 'https://github.com/konan-5',
         title: 'Hiroshi Ikeda & Github'
     },
-    {
-        icon: discordIcon,
-        href: 'https://discord.com/users/416826665616801793',
-        title: 'Hiroshi Ikeda & Discord'
-    },
+    // {
+    //     icon: upworkIcon,
+    //     href: 'https://www.upwork.com/freelancers/~0194e76cb515f9c3c8',
+    //     title: 'Hiroshi Ikeda & Upwork'
+    // },
+    // {
+    //     icon: discordIcon,
+    //     href: 'https://discord.com/users/416826665616801793',
+    //     title: 'Hiroshi Ikeda & Discord'
+    // },
     // {
     //     icon: telegramIcon,
     //     href: 'https://t.me/konan517',

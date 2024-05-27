@@ -10,7 +10,7 @@ const Skills: React.FC = () => {
                 <div className="grid grid-cols-3 sm:grid-cols-6 md:grid-cols-9 gap-y-10  text-center">
                     {
                         skills.map((item, key) => (
-                            <img src={item.icon} className="p-1 mx-auto rounded-md dark:bg-white" alt={item.skill} title={item.skill} key={`skill${key}`} />
+                            <img src={item.icon} className="w-[48px] p-1 mx-auto rounded-md dark:bg-white" alt={item.skill} title={item.skill} key={`skill${key}`} />
                         ))
                     }
                 </div>
