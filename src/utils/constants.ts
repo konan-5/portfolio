@@ -106,7 +106,7 @@ export const projects = [
         title: 'WuTensor: Unshackling AI',
         description: 'WuTensor is architected as a premier decentralized orchestration platform, seamlessly interfacing with the Bittensor network to leverage a constellation of specialized AI subnets.',
         images: [wutensor_1, wutensor_2, wutensor_3],
-        project_link: 'https://pierprotocol.com',
+        project_link: 'https://wutensor.com',
         source_link: ''
     },
     {
@@ -127,7 +127,7 @@ export const projects = [
         title: 'Neuracloud: local AI processing',
         description: 'Neura\'s cloud infrastructure is designed to ensure agility, scalability, and security. We focus on operational excellence, optimizing costs without compromising on performance.',
         images: [neuracloud_1, neuracloud_2, neuracloud_3],
-        project_link: 'https://explorer.qubic.org',
+        project_link: 'https://neuracloud.xyz',
         source_link: ''
     },
     {
