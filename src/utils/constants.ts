@@ -118,14 +118,14 @@ export const projects = [
     },
     {
         title: 'UselessUtility: Dedicated OTC',
-        description: 'Useless Utility (UU) is a cryptocurrency project that offers an Over-the-Counter (OTC) marketplace for secure and responsible trading of various cryptocurrencies. It aims to prevent price dumping and provide a platform for users to trade large holdings without negatively impacting the market.',
+        description: 'Useless Utility (UU) is a cryptocurrency project that offers an Over-the-Counter (OTC) marketplace for secure and responsible trading of various cryptocurrencies.',
         images: [uselessutility_1, uselessutility_2, uselessutility_3],
         project_link: 'https://uselessutility.com',
         source_link: ''
     },
     {
         title: 'Neuracloud: local AI processing',
-        description: 'Neura\'s cloud infrastructure is designed to ensure agility, scalability, and security. We focus on operational excellence, optimizing costs without compromising on performance. Our architecture supports hybrid and multi-cloud environments, emphasizing reliability and robust security measures.',
+        description: 'Neura\'s cloud infrastructure is designed to ensure agility, scalability, and security. We focus on operational excellence, optimizing costs without compromising on performance.',
         images: [neuracloud_1, neuracloud_2, neuracloud_3],
         project_link: 'https://explorer.qubic.org',
         source_link: ''
