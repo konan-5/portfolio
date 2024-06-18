@@ -1,30 +1,39 @@
 import portfolio_1 from '../assets/projects/portfolio-1.png'
 import portfolio_2 from '../assets/projects/portfolio-2.png'
 import portfolio_3 from '../assets/projects/portfolio-3.png'
+import qubic_explorer_1 from '../assets/projects/qubic-explorer-1.png'
+import qubic_explorer_2 from '../assets/projects/qubic-explorer-2.png'
+import qubic_explorer_3 from '../assets/projects/qubic-explorer-3.png'
+import wutensor_1 from '../assets/projects/wutensor-1.png'
+import wutensor_2 from '../assets/projects/wutensor-2.png'
+import wutensor_3 from '../assets/projects/wutensor-3.png'
 import pierprotocol_1 from '../assets/projects/pierprotocol-1.png'
 import pierprotocol_2 from '../assets/projects/pierprotocol-2.png'
 import pierprotocol_3 from '../assets/projects/pierprotocol-3.png'
+import uselessutility_1 from '../assets/projects/uselessutility-1.png'
+import uselessutility_2 from '../assets/projects/uselessutility-2.png'
+import uselessutility_3 from '../assets/projects/uselessutility-3.png'
+import neuracloud_1 from '../assets/projects/neuracloud-1.png'
+import neuracloud_2 from '../assets/projects/neuracloud-2.png'
+import neuracloud_3 from '../assets/projects/neuracloud-3.png'
 import moneyview_1 from '../assets/projects/moneyview-1.png'
 import moneyview_2 from '../assets/projects/moneyview-2.png'
 import moneyview_3 from '../assets/projects/moneyview-3.png'
-import crosswise_1 from '../assets/projects/crosswise-1.png'
-import crosswise_2 from '../assets/projects/crosswise-2.png'
-import crosswise_3 from '../assets/projects/crosswise-3.png'
-import cryptomines_1 from '../assets/projects/cryptomines-1.png'
-import cryptomines_2 from '../assets/projects/cryptomines-2.png'
-import cryptomines_3 from '../assets/projects/cryptomines-3.png'
-import chriscortazzo_1 from '../assets/projects/chriscortazzo-1.png'
-import chriscortazzo_2 from '../assets/projects/chriscortazzo-2.png'
-import chriscortazzo_3 from '../assets/projects/chriscortazzo-3.png'
-import mercato_1 from '../assets/projects/mercato-1.png'
-import mercato_2 from '../assets/projects/mercato-2.png'
-import mercato_3 from '../assets/projects/mercato-3.png'
 import nimoindustry_1 from '../assets/projects/nimoindustry-1.png'
 import nimoindustry_2 from '../assets/projects/nimoindustry-2.png'
 import nimoindustry_3 from '../assets/projects/nimoindustry-3.png'
-import perfecttrading_1 from '../assets/projects/perfecttrading-1.png'
-import perfecttrading_2 from '../assets/projects/perfecttrading-2.png'
-import perfecttrading_3 from '../assets/projects/perfecttrading-3.png'
+import mercato_1 from '../assets/projects/mercato-1.png'
+import mercato_2 from '../assets/projects/mercato-2.png'
+import mercato_3 from '../assets/projects/mercato-3.png'
+import chriscortazzo_1 from '../assets/projects/chriscortazzo-1.png'
+import chriscortazzo_2 from '../assets/projects/chriscortazzo-2.png'
+import chriscortazzo_3 from '../assets/projects/chriscortazzo-3.png'
+import cryptomines_1 from '../assets/projects/cryptomines-1.png'
+import cryptomines_2 from '../assets/projects/cryptomines-2.png'
+import cryptomines_3 from '../assets/projects/cryptomines-3.png'
+import crosswise_1 from '../assets/projects/crosswise-1.png'
+import crosswise_2 from '../assets/projects/crosswise-2.png'
+import crosswise_3 from '../assets/projects/crosswise-3.png'
 
 import javascriptIcon from '../assets/skills/javascript.png'
 import typescriptIcon from '../assets/skills/typescript.png'
@@ -38,7 +47,7 @@ import nextIcon from '../assets/skills/next.png'
 import vueIcon from '../assets/skills/vue.png'
 // import expressIcon from '../assets/skills/express.png'
 import nestIcon from '../assets/skills/nest.png'
-// import djangoIcon from '../assets/skills/django.png'
+import djangoIcon from '../assets/skills/django.png'
 import polkadotIcon from '../assets/skills/polkadot.png'
 import cosmosIcon from '../assets/skills/cosmos.png'
 import tensorflowIcon from '../assets/skills/tensorflow.png'
@@ -46,11 +55,10 @@ import pytorchIcon from '../assets/skills/pytorch.png'
 // import mongodbIcon from '../assets/skills/mongodb.png'
 // import postgresqlIcon from '../assets/skills/postgresql.png'
 import awsIcon from '../assets/skills/aws.png'
-import kubernetesIcon from '../assets/skills/kubernetes.png'
+// import kubernetesIcon from '../assets/skills/kubernetes.png'
 import dockerIcon from '../assets/skills/docker.png'
 
 import xIcon from '../assets/icons/x.png'
-import linkedinIcon from '../assets/icons/linkedin.png'
 import githubIcon from '../assets/icons/github.png'
 // import upworkIcon from '../assets/icons/upwork.png'
 // import discordIcon from '../assets/icons/discord.png'
@@ -88,10 +96,38 @@ export const projects = [
         source_link: 'https://github.com/konan-5/portfolio'
     },
     {
+        title: 'Qubic Official Explorer',
+        description: 'Qubic is one of the few layer 1 which doesn\'t charge for making value transfers. Finality ensures that votes from 451 Computors (The Quorum) are reliable for offline payment verification.',
+        images: [qubic_explorer_1, qubic_explorer_2, qubic_explorer_3],
+        project_link: 'https://explorer.qubic.org',
+        source_link: ''
+    },
+    {
+        title: 'WuTensor: Unshackling AI',
+        description: 'WuTensor is architected as a premier decentralized orchestration platform, seamlessly interfacing with the Bittensor network to leverage a constellation of specialized AI subnets.',
+        images: [wutensor_1, wutensor_2, wutensor_3],
+        project_link: 'https://pierprotocol.com',
+        source_link: ''
+    },
+    {
         title: 'Pierprotocol: OTC market place',
         description: 'A cutting-edge multi-chain peer-to-peer protocol, transforming digital asset exchange with unmatched security and speed across diverse blockchains.',
         images: [pierprotocol_1, pierprotocol_2, pierprotocol_3],
         project_link: 'https://pierprotocol.com',
+        source_link: ''
+    },
+    {
+        title: 'UselessUtility: Dedicated OTC',
+        description: 'Useless Utility (UU) is a cryptocurrency project that offers an Over-the-Counter (OTC) marketplace for secure and responsible trading of various cryptocurrencies. It aims to prevent price dumping and provide a platform for users to trade large holdings without negatively impacting the market.',
+        images: [uselessutility_1, uselessutility_2, uselessutility_3],
+        project_link: 'https://uselessutility.com',
+        source_link: ''
+    },
+    {
+        title: 'Neuracloud: local AI processing',
+        description: 'Neura\'s cloud infrastructure is designed to ensure agility, scalability, and security. We focus on operational excellence, optimizing costs without compromising on performance. Our architecture supports hybrid and multi-cloud environments, emphasizing reliability and robust security measures.',
+        images: [neuracloud_1, neuracloud_2, neuracloud_3],
+        project_link: 'https://explorer.qubic.org',
         source_link: ''
     },
     {
@@ -102,24 +138,10 @@ export const projects = [
         source_link: ''
     },
     {
-        title: 'Crosswise: Bridging DeFi and CeFi',
-        description: 'Crosswise Finance is a next-generation cross-chain DEX aimed at merging the worlds of centralized finance (CeFi) and decentralized finance (DeFi). It offers users unparalleled DeFi access, high liquidity, low slippage, and efficient cross-chain swaps.',
-        images: [crosswise_1, crosswise_2, crosswise_3],
-        project_link: 'https://crosswise.finance/',
-        source_link: ''
-    },
-    {
-        title: 'CryptoMines: Sci-Fi Gaming on BNB Chain',
-        description: 'Dive into CryptoMines, a sci-fi play-to-earn game leveraging the BNB Chain. Players can explore virtual worlds, collect NFTs, and earn rewards in an immersive metaverse setup.',
-        images: [cryptomines_1, cryptomines_2, cryptomines_3,],
-        project_link: 'https://cryptomines.app/',
-        source_link: ''
-    },
-    {
-        title: 'Chris Cortazzo Malibu Real Estate',
-        description: 'Explore Malibu real estate with Chris Cortazzo, the go-to agent for luxury beach homes. Offering personalized service and extensive local knowledge, Chris connects clients with their dream properties in Malibu\'s exclusive market.',
-        images: [chriscortazzo_1, chriscortazzo_2, chriscortazzo_3,],
-        project_link: 'https://chriscortazzo.com/',
+        title: 'Nimo Industries: Streamlining Lending',
+        description: 'Nimo Industries offers a streamlined digital lending solution that automates and simplifies loan processes. It focuses on improving efficiency and compliance, providing a user-friendly platform for lenders and borrowers.',
+        images: [nimoindustry_1, nimoindustry_2, nimoindustry_3],
+        project_link: 'https://nimoindustries.com/',
         source_link: ''
     },
     {
@@ -130,39 +152,53 @@ export const projects = [
         source_link: ''
     },
     {
-        title: 'Nimo Industries: Streamlining Lending',
-        description: 'Nimo Industries offers a streamlined digital lending solution that automates and simplifies loan processes. It focuses on improving efficiency and compliance, providing a user-friendly platform for lenders and borrowers.',
-        images: [nimoindustry_1, nimoindustry_2, nimoindustry_3],
-        project_link: 'https://nimoindustries.com/',
+        title: 'Chris Cortazzo Malibu Real Estate',
+        description: 'Explore Malibu real estate with Chris Cortazzo, the go-to agent for luxury beach homes. Offering personalized service and extensive local knowledge, Chris connects clients with their dream properties in Malibu\'s exclusive market.',
+        images: [chriscortazzo_1, chriscortazzo_2, chriscortazzo_3,],
+        project_link: 'https://chriscortazzo.com/',
         source_link: ''
     },
     {
-        title: 'Trade Smartly with Perfect Your Trading',
-        description: 'Learn to trade confidently with Perfect Your Trading\'s expert courses and personalized coaching, designed for all levels to master the markets.',
-        images: [perfecttrading_1, perfecttrading_2, perfecttrading_3,],
-        project_link: 'https://www.perfectyourtrading.com',
+        title: 'CryptoMines: Sci-Fi Gaming on BNB Chain',
+        description: 'Dive into CryptoMines, a sci-fi play-to-earn game leveraging the BNB Chain. Players can explore virtual worlds, collect NFTs, and earn rewards in an immersive metaverse setup.',
+        images: [cryptomines_1, cryptomines_2, cryptomines_3,],
+        project_link: 'https://cryptomines.app/',
         source_link: ''
     },
+    {
+        title: 'Crosswise: Bridging DeFi and CeFi',
+        description: 'Crosswise Finance is a next-generation cross-chain DEX aimed at merging the worlds of centralized finance (CeFi) and decentralized finance (DeFi). It offers users unparalleled DeFi access, high liquidity, low slippage, and efficient cross-chain swaps.',
+        images: [crosswise_1, crosswise_2, crosswise_3],
+        project_link: 'https://crosswise.finance/',
+        source_link: ''
+    },
+    // {
+    //     title: 'Trade Smartly with Perfect Your Trading',
+    //     description: 'Learn to trade confidently with Perfect Your Trading\'s expert courses and personalized coaching, designed for all levels to master the markets.',
+    //     images: [perfecttrading_1, perfecttrading_2, perfecttrading_3,],
+    //     project_link: 'https://www.perfectyourtrading.com',
+    //     source_link: ''
+    // },
 ]
 
 export const skills = [
     { skill: "javascript", icon: javascriptIcon },
     { skill: "typescript", icon: typescriptIcon },
+    { skill: "python", icon: pythonIcon },
     { skill: "solidity", icon: solidityIcon },
     { skill: "rust", icon: rustIcon },
     { skill: "go", icon: goIcon },
-    { skill: "python", icon: pythonIcon },
     { skill: "nodejs", icon: nodejsIcon },
     { skill: "react", icon: reactIcon },
     { skill: "next", icon: nextIcon },
     { skill: "vue", icon: vueIcon },
     { skill: "nest", icon: nestIcon },
+    { skill: "django", icon: djangoIcon },
     { skill: "polkadot", icon: polkadotIcon },
     { skill: "cosmos", icon: cosmosIcon },
     { skill: "tensorflow", icon: tensorflowIcon },
     { skill: "pytorch", icon: pytorchIcon },
     { skill: "aws", icon: awsIcon },
-    { skill: "kubernetes", icon: kubernetesIcon },
     { skill: "docker", icon: dockerIcon },
 ]
 
@@ -173,15 +209,16 @@ export const experiences = [
         country: 'United States',
         option: 'Remote',
         start_date: 'Nov 2020',
-        end_date: 'Jan 2023',
+        end_date: 'Aug 2023',
         works: [
             "Worked with web3 libraries to interact with blockchain networks, integrating various blockchain functionalities into applications.",
-            "Architected and developed a  Blockchain system using IMX service, demonstrating strong expertise in blockchain development.",
-            "Contributed to DeFi platform frontend MVP using React and Web3.js",
+            "Architected and developed a Blockchain system using IMX service, demonstrating strong expertise in blockchain development.",
             "Had Rich experience in Blockchain technology, Up to Date skills with international teammates. Using TypeScript, React, Web3.js, and so on.",
-            "Built and launched Smart Contracts for Genesis NFT, Pode and Marketplace as well. I’ve used ERC-721 based NFT rather than ERC-1155.",
+            "Conducted research of AI products such as image processing (face recognition, detection of CVST from CT images) and NLP(Natural Language Processing) with other developers.",
+            "Built and launched Smart Contracts for Genesis NFT, Pode and Marketplace as well.I’ve used ERC-721 based NFT rather than ERC-1155.",
             "Created over 5 full-stack solutions, addressing 40% of use cases, from web UI to backend.",
-            "Gained hands-on experience with Docker, Kubernetes, and CI/CD tools for automated deployment.",
+            "Contributed to DeFi platform frontend MVP using React and Web3.js.",
+
         ]
     },
     {
@@ -192,12 +229,13 @@ export const experiences = [
         start_date: 'May 2019',
         end_date: 'Oct 2020',
         works: [
-            "Developed and deployed the back-end using Express, Node.js, and MySQL, ensuring robust and efficient server-side functionality",
             "Provided valuable input for server-based Node.js software, leading to a 15% improvement in overall work quality.",
             "Actively participated in 20+ weekly code reviews, ensuring code quality and receiving mentorship from senior developers.",
+            "Developed and deployed the back-end using Express, Node.js, and MongoDB, ensuring robust and efficient server - side functionality.",
             "Built backend for finance websites with Django and Data analytics projects with python.",
-            "Worked with services like EC2, Lambda, SES, SNS, VPC, CloudFront, CloudFormation etc.",
-            "Integrated Stripe as a payment gateway to enable secure and seamless subscriptions.",
+            "Worked with services like EC2, Lambda, SES, SNS, VPC, CloudFront, CloudFormation.",
+            "Gained hands-on experience with Docker, Kubernetes, and CI/CD tools for automated deployment.",
+            "Integrated Stripe as a payment gateway to enable secure and seamless subscription.",
         ]
     },
     {
@@ -222,11 +260,6 @@ export const socials = [
         icon: xIcon,
         href: 'https://x.com/ikedahiroshi517',
         title: 'Hiroshi Ikeda & X'
-    },
-    {
-        icon: linkedinIcon,
-        href: 'https://www.linkedin.com/in/ikedahiroshi517',
-        title: 'Hiroshi Ikeda & Linkedin'
     },
     {
         icon: githubIcon,
