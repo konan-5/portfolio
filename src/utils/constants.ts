@@ -60,7 +60,7 @@ import dockerIcon from '../assets/skills/docker.png'
 
 import xIcon from '../assets/icons/x.png'
 import githubIcon from '../assets/icons/github.png'
-// import upworkIcon from '../assets/icons/upwork.png'
+import upworkIcon from '../assets/icons/upwork.png'
 // import discordIcon from '../assets/icons/discord.png'
 // import telegramIcon from '../assets/icons/telegram.png'
 
@@ -266,11 +266,11 @@ export const socials = [
         href: 'https://github.com/konan-5',
         title: 'Hiroshi Ikeda & Github'
     },
-    // {
-    //     icon: upworkIcon,
-    //     href: 'https://www.upwork.com/freelancers/~0194e76cb515f9c3c8',
-    //     title: 'Hiroshi Ikeda & Upwork'
-    // },
+    {
+        icon: upworkIcon,
+        href: 'https://www.upwork.com/freelancers/~0194e76cb515f9c3c8',
+        title: 'Hiroshi Ikeda & Upwork'
+    },
     // {
     //     icon: discordIcon,
     //     href: 'https://discord.com/users/416826665616801793',
